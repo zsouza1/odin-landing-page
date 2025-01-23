@@ -1,0 +1,79 @@
+.header {
+    border: 10px green solid;
+}
+
+.upper-header {
+    border: 20px blue solid;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-topr {
+    display: flex;
+}
+
+.header-topr ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.header-main {
+    border: 10px solid pink;
+    display: flex;
+    justify-content: center;
+}
+
+.header-left {
+    border: 10px solid cyan;
+}
+
+.header-right {
+    border: 10px solid purple;
+}
+
+.body-one {
+    border: 10px solid yellow;
+}
+
+.boxes {
+    border: 10px solid black;
+    display: flex;
+    justify-content: center;
+}
+
+.box {
+    border: 10px solid fuchsia;
+}
+
+.one {
+    border: 10px solid green;
+    height: 200px;
+    width: 200px;
+}
+
+.box-text {
+    border: 10px solid blue;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 200px;
+}
+
+.body-two {
+    background: rgb(238, 235, 233);
+}
+
+.body-three {
+    border: 10px solid red;
+}
+
+.ad {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
