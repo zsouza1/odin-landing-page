@@ -10,8 +10,6 @@ body {
 .header {
     background-color: #1F2937;
     color: white;
-    padding-left: 210px;
-    padding-right: 210px;
     padding-bottom: 100px;
 }
 
@@ -106,11 +104,6 @@ button:hover {
     margin-left: 20px;
 }
 
-.body-one {
-    padding-left: 210px;
-    padding-right: 210px;
-}
-
 .random {
     display: flex;
     justify-content: center;
@@ -147,14 +140,11 @@ button:hover {
 
 .body-two {
     background: #E5E7EB;
-    padding-left: 210px;
-    padding-right: 210px;
 }
 
 .quote {
     display: flex;
     flex-direction: column;
-    flex: 1;
     padding: 100px 60px;
 }
 
@@ -203,4 +193,21 @@ button:hover {
     color: #F9FAF8;
     padding: 2.5rem;
     font-size: 18px;
+}
+
+.upper-header,
+.header-main,
+.boxes,
+.quote{
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 175px;
+    padding-right: 175px;
+}
+
+.ad {
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 10%;
+    padding-right: 10%;
 }
